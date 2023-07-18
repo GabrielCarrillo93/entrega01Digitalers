@@ -1,0 +1,7 @@
+:root{
+    --gris-claro: hsla(0, 0%, 51%, 1);
+    --gris-oscuro: hsla(0, 0%, 31%, 1);
+    --gris-clarito: hsla(0, 0%, 77%, 1);
+    --azulito: hsla(214, 84%, 56%, 1);
+    --fondo: hsla(0, 0%, 95%, 1);
+}
