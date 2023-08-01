@@ -1,1 +1,48 @@
 @import url(variables.css);
+
+header{
+    width: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 12px;
+}
+
+header .perfil {
+    width: 90%;
+    align-self: center;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+header .container_grid{
+    display: grid;
+    grid-template-columns: auto;
+    gap: 16px;
+    padding: 16px;
+}
+
+header .titulo{
+    font-size: var(--titulo-size);
+    font-weight: var(--titulo-weight);  
+    line-height: var(--titulo-ln);
+}
+
+header .texto{
+    font-size: var(--texto-size);
+    font-weight: var(--texto-weight);  
+    line-height: var(--texto-ln);
+    color: var(--gris-claro);
+}
+
+header .negro{
+    color: black;
+}
+
+
+@media screen and (min-width: 1200px) {
+    header{
+        width: 40%;
+    }
+}
