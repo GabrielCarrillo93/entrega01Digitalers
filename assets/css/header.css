@@ -10,7 +10,7 @@ header{
 }
 
 header .perfil {
-    width: 90%;
+    width: 70%;
     align-self: center;
     margin-top: 0;
     margin-bottom: 1rem;
@@ -44,5 +44,6 @@ header .negro{
 @media screen and (min-width: 1200px) {
     header{
         width: 40%;
+        float: left;
     }
 }

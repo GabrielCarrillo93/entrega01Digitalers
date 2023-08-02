@@ -1,0 +1,64 @@
+@import url('variables.css');
+
+main>.skills{
+    padding: 16px;
+    display: grid;
+    grid-template-columns: auto;
+    gap: 16px;
+    border-radius: 12px;
+}
+
+.skills>h2{
+    font-size: var(--titulo-size);
+    font-weight: var(--titulo-weight);
+    line-height: var(--titulo-ln);
+
+}
+
+article>.habilidad{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.habilidad>.lang{
+    color: var(--gris-claro);
+    font-size: var(--titulo-size);
+    font-weight: var(--titulo-weight);
+    line-height: var(--titulo-ln);
+}
+
+.lang_container{
+    width: 60%;
+    height: 10px;
+    background-color: var(--gris-clarito);
+}
+
+[class$="_progreso"]{
+    height: 10px;
+    background-color: var(--azulito);
+}
+
+.html_progreso, .js_progreso{
+    width: 88%;
+}
+
+.css_progreso, .react_progreso{
+    width: 77%;
+}
+
+@media screen and (min-width: 1200px) {
+    main>.skills{
+        width: 60%;
+        float: left;
+    }
+
+    .skills>.row{
+        display: grid;
+        grid-template-columns: repeat(2, 49%);
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 16px;
+    }
+}
