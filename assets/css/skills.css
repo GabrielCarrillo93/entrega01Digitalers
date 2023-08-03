@@ -6,6 +6,8 @@ main>.skills{
     grid-template-columns: auto;
     gap: 16px;
     border-radius: 12px;
+    background-color: var(--fondo-componente);
+    margin: 0.5rem 0;
 }
 
 .skills>h2{
@@ -22,6 +24,7 @@ article>.habilidad{
     align-items: center;
     justify-content: space-between;
 }
+
 
 .habilidad>.lang{
     color: var(--gris-claro);

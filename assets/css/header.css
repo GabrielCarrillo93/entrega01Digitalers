@@ -7,6 +7,8 @@ header{
     flex-direction: column;
     justify-content: space-between;
     border-radius: 12px;
+    background-color: var(--fondo-componente);
+    margin: 0 0 0.5rem 0;
 }
 
 header .perfil {
@@ -43,7 +45,7 @@ header .negro{
 
 @media screen and (min-width: 1200px) {
     header{
-        width: 40%;
+        width: 39%;
         float: left;
     }
 }
