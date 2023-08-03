@@ -1,12 +1,20 @@
 @import url('variables.css');
 
-main>.selector-proyectos{
+.selector-proyectos{
     padding: 16px;
+    
+}
+
+.selector-proyectos>h2{
+    font-size: var(--titulo-size);
+    font-weight: var(--titulo-weight);
+    line-height: var(--titulo-ln);
+    color: var(--gris-oscuro);
 }
 
 .selector-proyectos>.botonera{
     display: grid;
-    grid-template-columns: repeat(3, auto);
+    grid-template-columns: auto repeat(2, 30%);
     align-items: center;
     justify-content: space-between;
     gap: 16px;
@@ -16,16 +24,35 @@ main>.selector-proyectos{
 .botonera>button{
     background-color: var(--fondo);
     color: var(--gris-claro);
-    font-size: var(--texto-size);
+    font-size: var(--texto2-size);
     font-weight: var(--texto-weight);
     line-height: var(--texto-ln);
     border-radius: 12px;
     padding: 12px 16px;
-    text-align: center;
     border: 2px solid var(--gris-clarito);
+    width: 100%;
 }
 
 .botonera>button:active{
     background-color: var(--azulito);
     color: var(--fondo)
+}
+
+@media screen and (min-width: 1200px) {
+    main>.selector-proyectos{
+        width: 60%;
+        grid-template-columns: repeat(3, auto);
+        align-items: center;
+        justify-content: space-between;
+        gap: 16px;
+        border-radius: 12px;
+        float: right; 
+        margin-top: 1rem;
+    }
+
+    .selector-proyectos>.botonera{
+        width: 50%;
+        margin-bottom: 2rem;
+    }
+    
 }

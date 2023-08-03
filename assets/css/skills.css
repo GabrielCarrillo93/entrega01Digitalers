@@ -12,6 +12,7 @@ main>.skills{
     font-size: var(--titulo-size);
     font-weight: var(--titulo-weight);
     line-height: var(--titulo-ln);
+    color: var(--gris-oscuro);
 
 }
 
@@ -51,7 +52,7 @@ article>.habilidad{
 @media screen and (min-width: 1200px) {
     main>.skills{
         width: 60%;
-        float: left;
+        float: right;
     }
 
     .skills>.row{
