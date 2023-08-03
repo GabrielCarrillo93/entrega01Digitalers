@@ -4,18 +4,15 @@ main>.proyectos{
     background-color: var(--fondo-componente);
     margin: 0.5rem 0;
     border-radius: 12px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
 
-[class^="proyecto"]{
+[class^="proyecto-"]{
     padding: 8px;
     display: grid;
     grid-template-columns: auto;
     gap: 16px;
-    border-radius: ;
+    border-radius: 12px;
 }
 
 [class^="proyecto"]>img{
@@ -69,4 +66,26 @@ main>.proyectos{
 
 .proyecto-2, .proyecto-3{
     display: none;
+}
+
+@media screen and (min-width: 1200px){
+    main>.proyectos{
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        float: right;
+    }
+
+    .proyecto-2, .proyecto-3{
+        display: grid;
+    }
+    
+    /* [class^="proyecto"]{
+        padding: 8px;
+        display: grid;
+        grid-template-columns: auto;
+        gap: 16px;
+        border-radius: 12px;
+    } */
 }
