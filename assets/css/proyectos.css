@@ -80,12 +80,4 @@ main>.proyectos{
     .proyecto-2, .proyecto-3{
         display: grid;
     }
-    
-    /* [class^="proyecto"]{
-        padding: 8px;
-        display: grid;
-        grid-template-columns: auto;
-        gap: 16px;
-        border-radius: 12px;
-    } */
 }
