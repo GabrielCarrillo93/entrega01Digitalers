@@ -15,8 +15,7 @@
 } 
 
 body{
-    /* background-color: var(--fondo); */
-    background-color: red;
+    background-color: var(--fondo);
     padding: 16px;
 }
 
