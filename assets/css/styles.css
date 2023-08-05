@@ -4,6 +4,7 @@
 @import url('skills.css');
 @import url('selector-proyectos.css');
 @import url('proyectos.css');
+@import url('experiencia.css');
 
 *{
     box-sizing: border-box;
@@ -14,7 +15,8 @@
 } 
 
 body{
-    background-color: var(--fondo);
+    /* background-color: var(--fondo); */
+    background-color: red;
     padding: 16px;
 }
 
