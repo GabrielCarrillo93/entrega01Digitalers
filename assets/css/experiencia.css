@@ -51,7 +51,7 @@ main>.experiencias{
     align-self: baseline;
 }
 
-.puesto>span{
+.puesto span{
     font-size: var(--texto3-size);
     font-weight: var(--texto3-weight);
     line-height: var((--texto3-ln));
@@ -74,4 +74,30 @@ p{
 
 .experiencia-2, .experiencia-3{
     display: none;
+}
+
+@media screen and (min-width:1200px){
+    
+
+    [class^="experiencia-"]{
+        grid-template-columns: 55%;
+        justify-content: space-around;
+    }
+
+    [class^="experiencia-"]>.row{
+        flex-direction: column;
+    }
+
+    .row>.puesto{
+        flex-direction: row;
+        margin: 10px 0;
+    }
+
+    .experiencias p{
+        margin: 10px 0;
+    }
+
+    .experiencia-2, .experiencia-3{
+        display: grid;
+    }
 }

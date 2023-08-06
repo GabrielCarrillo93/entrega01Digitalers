@@ -76,6 +76,9 @@ main>.proyectos{
         flex-direction: column;
         align-items: center;
         float: right;
+        height: 120vh;
+        overflow: scroll;
+        overflow-x: hidden;
     }
 
     .proyecto-2, .proyecto-3{
