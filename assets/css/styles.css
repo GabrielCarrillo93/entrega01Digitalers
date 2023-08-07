@@ -5,6 +5,7 @@
 @import url('selector-proyectos.css');
 @import url('proyectos.css');
 @import url('experiencia.css');
+@import url('certificados.css');
 
 *{
     box-sizing: border-box;
