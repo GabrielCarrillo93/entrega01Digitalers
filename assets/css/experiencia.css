@@ -23,7 +23,7 @@ main>.experiencias{
     grid-template-columns: auto;
     border: 1px solid var(--gris-clarito);
     border-radius: 12px;
-    padding: 32px 8px;
+    padding: 16px 8px;
 }
 
 [class^="experiencia-"]>h2{
@@ -85,6 +85,10 @@ p{
 
 @media screen and (min-width:1200px){
     
+    main>.experiencias{
+        width: 39%;
+        float: left;
+    }
 
     [class^="experiencia-"]{
         grid-template-columns: 55%;
