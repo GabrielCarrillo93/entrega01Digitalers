@@ -17,6 +17,7 @@ main>.certificados{
     display: flex;
     flex-direction: column;
     margin: 16px 0;
+    border-radius: 12px;
 }
 
 [class^="certificado-"]>img{

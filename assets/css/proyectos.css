@@ -76,11 +76,23 @@ main>.proyectos{
         flex-direction: column;
         align-items: center;
         float: right;
-        height: 115vh;
+        max-height: 110vh;
         overflow: scroll;
         overflow-x: hidden;
         gap: 32px;
     }
+
+    .proyectos::-webkit-scrollbar{
+        background-color: var(--fondo-componente);
+        width: 10px;
+    }
+
+    .proyectos::-webkit-scrollbar-thumb{
+        background-color: var(--azulito);
+        border-radius: 12px;
+        width: 10px;
+    }
+    
     
     [class^="proyecto-"]{
         display: grid;

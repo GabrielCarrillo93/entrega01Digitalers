@@ -23,7 +23,7 @@ main>.experiencias{
     grid-template-columns: auto;
     border: 1px solid var(--gris-clarito);
     border-radius: 12px;
-    padding: 16px 8px;
+    padding: 8px 4px;
 }
 
 [class^="experiencia-"]>h2{
@@ -101,11 +101,11 @@ p{
 
     .row>.puesto{
         flex-direction: row;
-        margin: 10px 0;
+        margin: 5px 0;
     }
 
     .experiencias p{
-        margin: 10px 0;
+        margin: 5px 0;
     }
 
     .experiencia-2, .experiencia-3{
