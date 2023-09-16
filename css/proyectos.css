@@ -1,0 +1,114 @@
+@import url('variables.css');
+
+main>.proyectos{
+    background-color: var(--fondo-componente);
+    margin: 0.5rem 0;
+    border-radius: 12px;
+}
+
+
+[class^="proyecto-"]{
+    padding: 16px;
+    display: grid;
+    grid-template-columns: auto;
+    gap: 16px;
+    border-radius: 12px;
+}
+
+[class^="proyecto-"] img{
+    width: 100%;
+    border: 1px solid var(--gris-clarito);
+    border-radius: 12px;
+}
+
+[class^="proyecto-"] span{
+    color: var(--gris-oscuro);
+    font-size: var(--titulo2-size);
+    font-weight: var(--titulo2-weight);
+    line-height: var(--textit2-ln);
+}
+
+[class^="proyecto-"] h3{
+    font-size: var(--titulo-size);
+    font-weight: var(--titulo-weight);
+    line-height: var(--titulo-ln);
+}
+
+[class^="proyecto-"] p{
+    color: var(--gris-claro);
+    font-size: var(--texto-size);
+    font-weight: var(--texto-weight);
+    line-height: var(--texto-ln);
+}
+
+.demo, .code{
+    text-decoration: none;
+    padding: 12px 32px;
+    border-radius: 12px;
+    font-size: var(--texto-size);
+    font-weight: var(--texto-weight);
+    line-height: var(--texto-ln);
+}
+
+[class^="proyecto-"] .links{
+    margin-top: 16px;
+}
+
+[class^="proyecto-"] .demo{
+    background-color: var(--azulito);
+    color: var(--fondo);
+}
+
+[class^="proyecto-"] .code{
+    background-color: var(--fondo-componente);
+    color: var(--gris-claro);
+    border: 1px solid var(--gris-claro);
+}
+
+.proyecto-2, .proyecto-3{
+    display: none;
+}
+
+@media screen and (min-width: 1200px){
+    main>.proyectos{
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        float: right;
+        max-height: 110vh;
+        overflow: scroll;
+        overflow-x: hidden;
+        gap: 32px;
+    }
+
+    .proyectos::-webkit-scrollbar{
+        background-color: var(--fondo-componente);
+        width: 10px;
+    }
+
+    .proyectos::-webkit-scrollbar-thumb{
+        background-color: var(--azulito);
+        border-radius: 12px;
+        width: 10px;
+    }
+    
+    
+    [class^="proyecto-"]{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        gap: 48px
+    }
+
+    [class^="proyecto-"]>.detalles{
+        padding: 16px 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .proyecto-2, .proyecto-3{
+        display: grid;
+    }
+
+}

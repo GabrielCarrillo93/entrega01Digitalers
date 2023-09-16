@@ -1,0 +1,23 @@
+:root{
+    --gris-claro: hsla(0, 0%, 51%, 1);
+    --gris-oscuro: hsla(0, 0%, 31%, 1);
+    --gris-clarito: hsla(0, 0%, 77%, 1);
+    --azulito: hsla(214, 84%, 56%, 1);
+    --fondo-componente: hsla(0, 0%, 95%, 1);
+    --fondo: hsla(0, 25%, 94%, 1);
+    --titulo-size: 24px;
+    --titulo-weight: 600;
+    --titulo2-size: 16px;
+    --titulo2-weight: 600;
+    --texto-size: 18px;
+    --texto-weight: 500;
+    --texto2-size: 16px;
+    --texto2-weight: 500;
+    --texto3-size: 14px;
+    --texto3-weight: 500;
+    --titulo-ln: 29.26px;
+    --textit2-ln: 19.5px;
+    --texto-ln: 21.94px;
+    --texto3-ln: 17.07px;
+}
+

@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap');
+@import url('variables.css');
+@import url('header.css');
+@import url('skills.css');
+@import url('selector-proyectos.css');
+@import url('proyectos.css');
+@import url('experiencia.css');
+@import url('certificados.css');
+
+*{
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+} 
+
+body{
+    background-color: var(--fondo);
+    padding: 16px;
+}
+
+
+
