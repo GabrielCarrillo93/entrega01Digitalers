@@ -63,13 +63,13 @@
         <section class="selector-proyectos">
             <h2>Proyectos (3)</h2> 
             <div class="botonera">
-                <button type="button">Responsivo</button>
-                <button type="button">Javascript</button>
-                <button type="button">React</button>
+                <button type="button" id="responsive" class="active">Responsivo</button>
+                <button type="button" id="javascript">Javascript</button>
+                <button type="button" id="react">React</button>
             </div>
         </section>
 
-        <section class="proyectos">
+        <section class="proyectos" id="proyectos">
             <article class="proyecto-1">
                 <div><img src="assets/img/portfolio1.jpg" alt="foto_proyecto"></div>
                 <div class="detalles">
@@ -112,9 +112,9 @@
         </section>
 
         
-        <section class="experiencias">
+        <section class="experiencias" id="experiencias">
             <h2>Experiencia</h2>
-            <article class="experiencia-1">
+            <!-- <article class="experiencia-1">
                 <div class="row">
                     <div class="puesto">
                         <img src="assets/img/logo.png" alt="logo">
@@ -127,60 +127,18 @@
                         <p>Lorem ipsum dolor sit amet consectetur. Eget nulla eu cursus cursus pretium eu. Eget vestibulum quam aliquet.</p>
                     </div>
                 </div>
-            </article>
-
-            <article class="experiencia-2">
-                <div class="row">
-                    <div class="puesto">
-                        <img src="assets/img/logo.png" alt="logo">
-                        <div>
-                            <span>Feb 2022 - Actualidad</span>
-                            <h3>Front end developer</h3>
-                        </div>
-                    </div>
-                    <div class="descripcion">
-                        <p>Lorem ipsum dolor sit amet consectetur. Eget nulla eu cursus cursus pretium eu. Eget vestibulum quam aliquet.</p>
-                    </div>
-                </div>
-            </article>
-
-            <article class="experiencia-3">
-                <div class="row">
-                    <div class="puesto">
-                        <img src="assets/img/logo.png" alt="logo">
-                        <div>
-                            <span>Feb 2022 - Actualidad</span>
-                            <h3>Front end developer</h3>
-                        </div>
-                    </div>
-                    <div class="descripcion">
-                        <p>Lorem ipsum dolor sit amet consectetur. Eget nulla eu cursus cursus pretium eu. Eget vestibulum quam aliquet.</p>
-                    </div>
-                </div>
-            </article>
+            </article> -->
+            <a>&#10094;</a>
+            <a>&#10095;</a>
         </section>
 
         
-        <section class="certificados">
+        <section class="certificados" >
             <h2>Certificados</h2>
-            <div class="row">
-                <article class="certificado-1">
-                    <img src="assets/img/diploma.png" alt="certificado">
-                    <h3>Front end dev</h3>
-                    <span>Feb 2020 - Feb 2021</span>
-                </article>
-                <article class="certificado-2">
-                    <img src="assets/img/diploma.png" alt="certificado">
-                    <h3>Front end dev</h3>
-                    <span>Feb 2020 - Feb 2021</span>
-                </article>
-                <article class="certificado-3">
-                    <img src="assets/img/diploma.png" alt="certificado">
-                    <h3>Front end dev</h3>
-                    <span>Feb 2020 - Feb 2021</span>
-                </article>
+            <div class="row" id="certificados">
             </div>
         </section>
     </main>
+    <script src="js/index.js"></script>
 </body>
 </html>

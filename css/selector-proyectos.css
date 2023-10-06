@@ -35,7 +35,7 @@
     width: 100%;
 }
 
-.botonera>button:active{
+.botonera>.active{
     background-color: var(--azulito);
     color: var(--fondo);
     border-style: none;
