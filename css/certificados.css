@@ -43,6 +43,28 @@ main>.certificados{
     border: 1px solid var(--gris-clarito);
 }
 
+.certificados > .sliderAnterior, .certificados > .sliderSiguiente {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 24px 18px;
+    color: var(--azulito);
+    font-weight: bold;
+    font-size: 36px;
+    transition: 0.6s ease;
+    user-select: none;
+    border: none;
+    background-color: transparent;
+}
+
+
+.certificados > .sliderSiguiente {
+    top: 50%;
+    right: 0;
+} 
+
 .none{
     display: none;
 }
