@@ -43,7 +43,7 @@ main>.certificados{
     border: 1px solid var(--gris-clarito);
 }
 
-.certificados > .sliderAnterior, .certificados > .sliderSiguiente {
+.certificados .sliderAnterior, .certificados .sliderSiguiente {
     cursor: pointer;
     position: absolute;
     top: 50%;
@@ -60,7 +60,7 @@ main>.certificados{
 }
 
 
-.certificados > .sliderSiguiente {
+.certificados .sliderSiguiente {
     top: 50%;
     right: 0;
 } 
