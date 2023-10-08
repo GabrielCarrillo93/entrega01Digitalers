@@ -4,6 +4,7 @@ main>.certificados{
     background-color: var(--fondo-componente);
     padding: 16px;
     border-radius: 12px;
+    position: relative;
 }
 
 .certificados>h2{
@@ -42,7 +43,7 @@ main>.certificados{
     border: 1px solid var(--gris-clarito);
 }
 
-.certificado-2, .certificado-3{
+.none{
     display: none;
 }
 
@@ -62,7 +63,8 @@ main>.certificados{
     [class^="certificado-"]{
         width: 25%;
     }
-    .certificado-2, .certificado-3{
+
+    .none{
         display: flex;
     }
 }

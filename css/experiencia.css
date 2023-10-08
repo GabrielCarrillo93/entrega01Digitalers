@@ -8,6 +8,7 @@ main>.experiencias{
     grid-template-columns: auto;
     gap: 16px;
     border-radius: 12px;
+    position: relative;
 }
 
 .experiencias>h2{
@@ -78,8 +79,7 @@ p{
     color: var(--gris-claro);
 }
 
-
-.experiencia-2, .experiencia-3{
+.none{
     display: none;
 }
 
@@ -108,7 +108,8 @@ p{
         margin: 5px 0;
     }
 
-    .experiencia-2, .experiencia-3{
+    .none{
         display: grid;
     }
+
 }

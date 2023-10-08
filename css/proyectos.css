@@ -4,6 +4,7 @@ main>.proyectos{
     background-color: var(--fondo-componente);
     margin: 0.5rem 0;
     border-radius: 12px;
+    position: relative;
 }
 
 
@@ -57,6 +58,7 @@ main>.proyectos{
 [class^="proyecto-"] .demo{
     background-color: var(--azulito);
     color: var(--fondo);
+    margin-right: 8px;
 }
 
 [class^="proyecto-"] .code{
@@ -65,7 +67,7 @@ main>.proyectos{
     border: 1px solid var(--gris-claro);
 }
 
-.proyecto-2, .proyecto-3{
+.none{
     display: none;
 }
 
@@ -76,10 +78,11 @@ main>.proyectos{
         flex-direction: column;
         align-items: center;
         float: right;
-        max-height: 110vh;
+        max-height: 105vh;
         overflow: scroll;
         overflow-x: hidden;
         gap: 32px;
+        position: relative;
     }
 
     .proyectos::-webkit-scrollbar{
@@ -107,8 +110,7 @@ main>.proyectos{
         justify-content: space-between;
     }
 
-    .proyecto-2, .proyecto-3{
+    .none{
         display: grid;
     }
-
 }
